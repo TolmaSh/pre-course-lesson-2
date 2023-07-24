@@ -1,0 +1,116 @@
+body {
+  background: #eff2f9;
+}
+.card-wrapper {
+  width: 1170px;
+  min-height: 800px;
+  background: #fff;
+  box-shadow: 20px 20px 40px 0px rgba(81, 91, 117, 0.25);
+}
+.selected-cup {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  box-shadow: 8px 8px 16px 0px rgba(81, 91, 117, 0.25);
+}
+.main-title {
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 0.38px;
+}
+.main-subtitle {
+  color: rgba(20, 20, 20, 0.4);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.16px;
+}
+.main-text {
+  color: rgba(20, 20, 20, 0.7);
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.18px;
+}
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  filter: drop-shadow(2px 2px 4px rgba(81, 91, 117, 0.25));
+}
+.blue-color {
+  background-color: #013c7d;
+}
+.aqua-color {
+  background-color: #63cba7;
+}
+.red-color {
+  background-color: #d52f29;
+}
+.black-color {
+  background-color: #141414;
+}
+.yellow-color {
+  background-color: #f2c723;
+}
+.selected-color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  filter: drop-shadow(2px 2px 4px rgba(81, 91, 117, 0.25));
+}
+.second-title {
+  color: rgba(20, 20, 20, 0.4);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.16px;
+  text-transform: uppercase;
+}
+.cup-amount {
+  font-family: Rubik ,sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(20, 20, 20, 0.8);
+  padding: 0 48px 0 0;
+  border: none;
+  margin: 0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("./assets/images/arrow-bottom.svg");
+  background-repeat: no-repeat, repeat;
+  background-position: right 0 top 50%, 0 0;
+  background-size: 20px 20px;
+}
+.cup-amount:focus {
+  border-color: none;
+  outline: none;
+}
+
+.price {
+    color: rgba(20, 20, 20, 0.80);
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+.button {
+    height: 70px;
+    width: 100%;
+    background: #141414;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
+    outline: none;
+    border: none;
+}
+
+
